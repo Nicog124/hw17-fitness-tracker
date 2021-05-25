@@ -9,7 +9,10 @@ Project 17 tasked the student with building out the MVC parameters for a fitness
 There wern't too many difficult parts of this project and the more labor intensive parts included setting up the server, routing for API and HTML, and the model for the database.
 
 
+
 # demo gif
+![FitnessTrackergif](https://user-images.githubusercontent.com/78495603/119535925-861fcc00-bd56-11eb-88ac-6d2d8ae15719.gif)
+
 
 
 # licence
