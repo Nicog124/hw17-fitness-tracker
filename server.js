@@ -24,3 +24,12 @@ require("./routes/apiroutes")(app);
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });
+
+const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb+srv://dbuser99:<user99dbdb>@cluster1.tibex.mongodb.net/fittrack_db?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+client.connect(err => {
+  const collection = client.db("test").collection("devices");
+  // perform actions on the collection object
+  client.close();
+}); 
