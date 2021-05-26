@@ -12,6 +12,8 @@ There wern't too many difficult parts of this project and the more labor intensi
 # instalation
 You will need to install the node dependencies which can be done by running the npm install command in your terminal/bash shell. After the dependencies have been installed, you will need to populate your MongoDB database by uncommenting the required seed file or by running NPM Run Seed. Once filled in, you can start the server and use the program
 
+deployable link: https://hw-17-ng.herokuapp.com/
+
 
 # demo gif
 ![FitnessTrackergif](https://user-images.githubusercontent.com/78495603/119535925-861fcc00-bd56-11eb-88ac-6d2d8ae15719.gif)
